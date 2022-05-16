@@ -164,19 +164,19 @@ body {
   border: 2px solid #FFA451;
   margin: 0;
 }
-.content .hottest .nav-links .inactive {
+.content .hottest .nav-links .disabled-options {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
-.content .hottest .nav-links .inactive h2 {
+.content .hottest .nav-links .disabled-options h2 {
   font-size: 14px;
   color: #938DB5;
   font-weight: 400;
   margin-top: 0.4rem;
   margin-right: 2rem;
 }
-.content .hottest .nav-links .inactive h2:last-child {
+.content .hottest .nav-links .disabled-options h2:last-child {
   margin-right: 0;
 }
 .content .hottest .hottest-cards {
