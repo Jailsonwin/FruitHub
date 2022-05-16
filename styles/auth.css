@@ -1,0 +1,111 @@
+html, body {
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  margin: 0%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 58%;
+  background-color: #FFA451;
+}
+
+.container img {
+  width: 18.938rem;
+  height: 19rem;
+  margin-top: 8.188rem;
+  margin-bottom: 2.125rem;
+}
+
+.content {
+  width: 100%;
+  height: 42%;
+  padding-top: 56px;
+  padding-bottom: 88px;
+  display: block;
+}
+
+.content .text-area {
+  width: 87%;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 400px;
+}
+
+.content .text-area h1 {
+  font-size: 18px;
+  padding-top: 2px;
+  margin-bottom: 1rem;
+  color: #27214D;
+  font-weight: bold;
+}
+
+.content .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content .form input {
+  width: 87%;
+  max-width: 400px;
+  height: 56px;
+  border: none;
+  border-radius: 10px;
+  background: #F3F1F1;
+  font-size: 20px;
+  font-weight: thin;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 24px;
+  outline: none;
+}
+
+.content .form button {
+  width: 87%;
+  max-width: 400px;
+  height: 56px;
+  border: none;
+  border-radius: 10px;
+  background-color: #FFA451;
+  color: white;
+  font-size: 16px;
+  margin-top: 42px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*# sourceMappingURL=auth.css.map */
