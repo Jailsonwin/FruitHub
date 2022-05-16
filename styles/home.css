@@ -5,10 +5,7 @@ html, body {
 body {
   margin: 0%;
   height: 100vh;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .navbar {
@@ -16,40 +13,26 @@ body {
   margin-right: 1.5rem;
   margin-left: 1.5rem;
 }
-
 .navbar .nav {
   width: 100%;
   max-width: 500px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-
 .navbar .nav #menu {
   width: 1.375rem;
   height: 0.688rem;
 }
-
 .navbar .nav #basket {
   width: 2.563rem;
   height: 2.625rem;
 }
-
 .navbar .title {
   width: 100%;
   max-width: 500px;
 }
-
 .navbar .title p {
   width: 16rem;
   font-size: 20px;
@@ -58,19 +41,16 @@ body {
   line-height: 30px;
   margin-bottom: 1.5rem;
 }
-
 .navbar .title .search {
   width: 100%;
   position: relative;
 }
-
 .navbar .title .search .icon {
   position: absolute;
   top: 20px;
   left: 1.5rem;
   width: 1rem;
 }
-
 .navbar .title .search input {
   width: 86%;
   max-width: 436px;
@@ -79,13 +59,11 @@ body {
   border: none;
   background-color: #F3F4F9;
   padding-left: 3.5rem;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-size: 14px;
   outline: none;
   margin-bottom: 2.5rem;
 }
-
 .navbar .title .search #filter {
   width: 1.625rem;
   margin-left: 12px;
@@ -97,7 +75,6 @@ body {
   margin-right: 1.5rem;
   margin-bottom: 3rem;
 }
-
 .content .recomended h1 {
   margin: 0;
   font-size: 24px;
@@ -105,37 +82,25 @@ body {
   color: #27214D;
   margin-bottom: 1.5rem;
 }
-
 .content .recomended .recomended-cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
   max-width: 500px;
 }
-
 .content .recomended .recomended-cards a {
   width: 46.4862%;
   height: 11.438rem;
-  -webkit-box-shadow: 0px 30px 60px rgba(32, 32, 32, 0.05);
-          box-shadow: 0px 30px 60px rgba(32, 32, 32, 0.05);
+  box-shadow: 0px 30px 60px rgba(32, 32, 32, 0.05);
   border-radius: 1rem;
   position: relative;
 }
-
 .content .recomended .recomended-cards a #heart {
   width: 1rem;
   position: absolute;
   top: 1rem;
   right: 1rem;
 }
-
 .content .recomended .recomended-cards a #rec1 {
   width: 5rem;
   top: 1.375rem;
@@ -146,7 +111,6 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
 .content .recomended .recomended-cards a h3 {
   position: inherit;
   text-decoration: none;
@@ -159,14 +123,12 @@ body {
   text-align: center;
   font-weight: 600;
 }
-
 .content .recomended .recomended-cards a #money {
   width: 1rem;
   position: absolute;
   left: 1rem;
   bottom: 1.5rem;
 }
-
 .content .recomended .recomended-cards a p {
   font-size: 14px;
   position: absolute;
@@ -175,57 +137,38 @@ body {
   margin: 0;
   color: #FFA451;
 }
-
 .content .recomended .recomended-cards a #add {
   width: 1.5rem;
   bottom: 1.2rem;
   position: absolute;
   right: 1rem;
 }
-
 .content .hottest {
   margin-left: 1.5rem;
 }
-
 .content .hottest .nav-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   width: 100%;
   max-width: 500px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .content .hottest .nav-links .active h1 {
   font-size: 24px;
   color: #27214D;
   font-weight: 600;
   margin: 0 30px 5px 0;
 }
-
 .content .hottest .nav-links .active hr {
   width: 1.375rem;
   border: 2px solid #FFA451;
   margin: 0;
 }
-
 .content .hottest .nav-links .inactive {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   width: 100%;
 }
-
 .content .hottest .nav-links .inactive h2 {
   font-size: 14px;
   color: #938DB5;
@@ -233,24 +176,16 @@ body {
   margin-top: 0.4rem;
   margin-right: 2rem;
 }
-
 .content .hottest .nav-links .inactive h2:last-child {
   margin-right: 0;
 }
-
 .content .hottest .hottest-cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   max-width: 500px;
   margin-top: 1.4rem;
   margin-bottom: 1rem;
 }
-
 .content .hottest .hottest-cards a {
   width: 40%;
   height: 9.375rem;
@@ -259,14 +194,12 @@ body {
   margin-right: 1rem;
   text-decoration: none;
 }
-
 .content .hottest .hottest-cards a #heart {
   width: 1rem;
   position: absolute;
   top: 1rem;
   right: 1rem;
 }
-
 .content .hottest .hottest-cards a #hot1 {
   width: 4rem;
   top: 1.188rem;
@@ -277,7 +210,6 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
 .content .hottest .hottest-cards a h3 {
   position: inherit;
   text-decoration: none;
@@ -290,7 +222,6 @@ body {
   text-align: center;
   font-weight: 600;
 }
-
 .content .hottest .hottest-cards a #hot2 {
   width: 6rem;
   top: 2rem;
@@ -301,14 +232,12 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
 .content .hottest .hottest-cards a #money {
   width: 1rem;
   position: absolute;
   left: 0.563rem;
   bottom: 0.813rem;
 }
-
 .content .hottest .hottest-cards a p {
   font-size: 14px;
   position: absolute;
@@ -317,36 +246,30 @@ body {
   margin: 0;
   color: #FFA451;
 }
-
 .content .hottest .hottest-cards a #add {
   width: 1.5rem;
   bottom: 0.5rem;
   position: absolute;
   right: 0.5rem;
 }
-
 .content .hottest .hottest-cards a:first-child {
   background-color: #FFFAEB;
 }
-
 .content .hottest .hottest-cards a:nth-child(2) {
   background-color: #FEF0F0;
 }
-
 .content .hottest .hottest-cards a:last-child {
   background-color: #F1EFF6;
   width: 11.2%;
   border-radius: 0.625rem 0 0 0.625rem;
   margin-right: 0;
 }
-
 .content .hottest .hottest-cards a:last-child #hot3 {
   width: 1rem;
   top: 2.438rem;
   right: 0;
   position: absolute;
 }
-
 .content .hottest .hottest-cards a:last-child h3 {
   position: inherit;
   text-decoration: none;
@@ -358,14 +281,12 @@ body {
   text-align: center;
   font-weight: 600;
 }
-
 .content .hottest .hottest-cards a:last-child #money {
   width: 1rem;
   position: absolute;
   left: 0.4rem;
   bottom: 0.813rem;
 }
-
 .content .hottest .hottest-cards a:last-child p {
   font-size: 14px;
   position: absolute;
@@ -373,5 +294,4 @@ body {
   bottom: 0.7rem;
   margin: 0;
   color: #FFA451;
-}
-/*# sourceMappingURL=home.css.map */
+}/*# sourceMappingURL=home.css.map */

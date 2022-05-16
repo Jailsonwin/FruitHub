@@ -5,34 +5,21 @@ html, body {
 body {
   margin: 0%;
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  flex-direction: column;
   font-family: "Lato", sans-serif;
   background-color: #FFA451;
 }
 
 .navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
   height: 17.734%;
   background-color: #FFA451;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   text-align: center;
 }
-
 .navbar #back {
   width: 5rem;
   height: 2rem;
@@ -40,17 +27,11 @@ body {
   margin-top: 4.5rem;
   margin-right: 0.875rem;
 }
-
 .navbar .title {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   text-align: center;
 }
-
 .navbar .title h1 {
   margin: 4.5rem 0 0 0;
   display: block;
@@ -64,288 +45,186 @@ body {
   height: 82.266%;
   background-color: white;
 }
-
 .content .top .list-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
-
 .content .top .list-item .item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin-bottom: rem;
 }
-
 .content .top .list-item .item .image {
   width: 4rem;
   margin-top: 2.5rem;
   height: 4rem;
   border-radius: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   background-color: #FFFAEB;
 }
-
 .content .top .list-item .item .image img {
   width: 3rem;
 }
-
 .content .top .list-item .item .image2 {
   width: 4rem;
   height: 4rem;
   border-radius: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   background-color: #F1EFF6;
 }
-
 .content .top .list-item .item .image2 img {
   width: 3.5rem;
 }
-
 .content .top .list-item .item .image3 {
   width: 4rem;
   height: 4rem;
   border-radius: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   background-color: #FEF0F0;
 }
-
 .content .top .list-item .item .image3 img {
   width: 3.5rem;
 }
-
 .content .top .list-item .item .image4 {
   width: 4rem;
   height: 4rem;
   margin-top: 2rem;
   border-radius: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   background-color: #F0FEF8;
 }
-
 .content .top .list-item .item .image4 img {
   width: 2.5rem;
 }
-
 .content .top .list-item .item .text-top {
   margin-top: 3.813rem;
 }
-
 .content .top .list-item .item .text-top p:first-child {
   font-size: 16px;
   font-weight: 500;
-  margin: 0 0 .5rem 1rem;
+  margin: 0 0 0.5rem 1rem;
 }
-
 .content .top .list-item .item .text {
   margin-top: 1.5rem;
 }
-
 .content .top .list-item .item .text p:first-child {
   font-size: 15px;
   font-weight: 500;
-  margin: 0 0 .5rem 1rem;
+  margin: 0 0 0.5rem 1rem;
 }
-
 .content .top .list-item .item .text p:nth-child(2) {
   font-size: 13px;
   font-weight: 300;
   margin: 0 0 0 1rem;
 }
-
 .content .top .list-item .item .text-bottom {
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
-
 .content .top .list-item .item .text-bottom p:first-child {
   font-size: 15px;
   font-weight: 500;
-  margin: 0 0 .5rem 1rem;
+  margin: 0 0 0.5rem 1rem;
 }
-
 .content .top .list-item .item .text-bottom p:nth-child(2) {
   font-size: 13px;
   font-weight: 300;
   margin: 0 0 0 1rem;
 }
-
 .content .top .list-item .status {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  align-items: center;
+  justify-content: flex-end;
 }
-
 .content .top .list-item .status img {
   width: 1.5rem;
   margin-top: 2.5rem;
 }
-
 .content .top .list-item .status .img2 {
   width: 1.5rem;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
-
 .content .top .list-item .status .phone {
   width: 2.5rem;
   margin-top: 0;
 }
-
 .content .top .dots {
   height: 3rem;
   margin-left: 3.5rem;
   margin-top: 4px;
   margin-bottom: 4px;
 }
-
 .content .top .dots img {
   height: 3rem;
 }
-
 .content .top .dots2 {
   height: 1.188rem;
   margin-left: 3.5rem;
   margin-top: 4px;
   margin-bottom: 3px;
 }
-
 .content .top .dots2 img {
   height: 1.188rem;
 }
-
 .content .top .map {
   width: 20.438rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
-
 .content .top .map img {
   width: 327px;
 }
-
 .content .top .last-list-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
-
 .content .top .last-list-item .item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin-bottom: rem;
 }
-
 .content .top .last-list-item .item .image4 {
   width: 4rem;
   height: 4rem;
   border-radius: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   background-color: #F0FEF8;
 }
-
 .content .top .last-list-item .item .image4 img {
   width: 2.5rem;
 }
-
 .content .top .last-list-item .item .text {
   margin-top: 1.5rem;
 }
-
 .content .top .last-list-item .item .text p {
   font-size: 15px;
   font-weight: 500;
-  margin: 0 0 .5rem 1rem;
+  margin: 0 0 0.5rem 1rem;
 }
-
 .content .top .last-list-item .status {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  align-items: center;
+  justify-content: flex-end;
 }
-
 .content .top .last-list-item .status img {
   width: 1.5rem;
 }
-
 .content .top .last-list-item .status .dots {
   width: 2.5rem;
-  height: .5rem;
-}
-/*# sourceMappingURL=track.css.map */
+  height: 0.5rem;
+}/*# sourceMappingURL=track.css.map */

@@ -1,11 +1,1 @@
-{
-    "version": 3,
-    "mappings": "ACEA,AAAA,IAAI,EAAE,IAAI,CAAC;EACP,WAAW,ECHR,MAAM,EAAE,UAAU;CDIxB;;ADFD,AAAA,KAAK,CAAC;EACF,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,KAAK;CACpB",
-    "sources": [
-        "splash.scss",
-        "variables/_base.scss",
-        "variables/_variables.scss"
-    ],
-    "names": [],
-    "file": "splash.css"
-}
+{"version":3,"sources":["variables/_base.scss","variables/_variables.scss","splash.css","splash.scss"],"names":[],"mappings":"AAEA;EACI,+BCHG;ACEP;;ACAA;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,iBAAA;ADGJ","file":"splash.css"}

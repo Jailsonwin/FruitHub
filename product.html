@@ -8,13 +8,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/product.css">
-    <title>Product - Fruit Hub</title>
+    <title>Product</title>
 </head>
 <body>
+    <!-- div contendo botão para voltar e a imagem do produto -->
     <div class="navbar">
-        <img src="./images/back.png" alt="" id="back" onclick="window.location = 'home.html';">
-        <img src="./images/product.png" alt="">
+        <img src="./images/back.png" alt="Go back" id="back" onclick="window.location = 'home.html';">
+        <img src="./images/product.png" alt="Food Image">
     </div>
+    <!-- div com todo conteudo abaixo da imagem -->
     <div class="content">
         <div class="top">
             <h1>Quinoa Fruit Salad</h1>
@@ -41,6 +43,7 @@
             <p>If you are looking for a new fruit salad to eat today, quinoa is the perfet brunch for you.</p>
             <div class="buttons">
                 <button class="fav"><img src="./images/fav.png" alt=""></button>
+                <!-- Botão com link para a pagina basket.html-->
                 <button class="basket" onclick="window.location = 'basket.html';">Add to basket</button>
             </div>
         </div>

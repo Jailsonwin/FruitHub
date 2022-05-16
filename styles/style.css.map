@@ -1,11 +1,1 @@
-{
-    "version": 3,
-    "mappings": "ACEA,AAAA,IAAI,EAAE,IAAI,CAAC;EACP,WAAW,ECHR,MAAM,EAAE,UAAU;CDIxB",
-    "sources": [
-        "style.scss",
-        "variables/_base.scss",
-        "variables/_variables.scss"
-    ],
-    "names": [],
-    "file": "style.css"
-}
+{"version":3,"sources":["variables/_base.scss","variables/_variables.scss","style.css"],"names":[],"mappings":"AAEA;EACI,+BCHG;ACEP","file":"style.css"}
